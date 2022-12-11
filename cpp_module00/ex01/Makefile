@@ -6,17 +6,17 @@
 #    By: ayassir <ayassir@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/10 14:32:52 by ayassir           #+#    #+#              #
-#    Updated: 2022/12/10 19:14:19 by ayassir          ###   ########.fr        #
+#    Updated: 2022/12/11 20:54:23 by ayassir          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	=	PhoneBook
 
-SRCS	=	PhoneBook.cpp
+SRCS	=	Contact.cpp PhoneBook.cpp 
 
 FLAGS	=	-Wall -Wextra -Werror -std=c++98
 
-HEADER	=	PhoneBook.hpp
+HEADER	=	 Contact.hpp PhoneBook.hpp
 
 CC		=	c++
 
